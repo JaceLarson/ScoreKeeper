@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TopFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/playerOneAddScore"
+                android:layout_width="wrap_content"
+                android:layout_height="142dp"
+                android:layout_weight="1"
+                android:text="Player 1 Add Score"
+                android:textColorHint="#000000" />
+
+            <Button
+                android:id="@+id/playerTwoAddScore"
+                android:layout_width="wrap_content"
+                android:layout_height="142dp"
+                android:layout_weight="1"
+                android:text="Player 2 Add Score" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/timerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Start Timer (30 Secs)" />
+
+            <TextView
+                android:id="@+id/timerSet"
+                android:layout_width="190dp"
+                android:layout_height="35dp"
+                android:text="Waiting..." />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CS3270A6_Larson</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="player_one_name">Set Player One Name</string>
+    <string name="player_two_name">Set Player Two Name</string>
+    <string name="menu">menu</string>
+    <string name="name_click_to_edit">Name (Click to edit)</string>
+    <string name="set_score_increment">Set Score Increment</string>
+
+</resources>
